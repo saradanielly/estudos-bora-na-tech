@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+</head>
+
+<style>
+
+    body {
+        background-color: black;
+    }
+    .container {
+        display: grid;
+
+        grid-template-columns: 200px 1fr 250px;
+        gap: 20px;
+    }
+
+    header {
+        grid-column: 1 / -1;
+
+        background-color: purple;
+        padding: 20px;
+    }
+
+    aside {
+        background-color: rgb(97, 16, 97);
+        padding: 20px;
+    }
+
+    main {
+        background-color: rgb(150, 23, 150);
+        padding: 20px;
+    }
+
+    section {
+        background-color: rgb(185, 51, 185);
+        padding: 20px;
+    }
+
+    footer {
+        grid-column: 1 / -1;
+
+        background-color: purple;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+
+        <aside>Menu</aside>
+
+        <main>Conteudo principal</main>
+
+        <section>Sidebar</section>
+
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

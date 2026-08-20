@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+</head>
+<!-- RESPONSIVIDADE COM FLEX-BOX -->
+<style>
+    body {
+        background-color: black;
+    }
+    .container {
+        background-color: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        min-height: 300px;
+    }
+
+    .item {
+        flex: 1 1 200px;
+
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        background-color: rgb(77, 0, 77);
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item">HTML</div>
+        <div class="item">CSS</div>
+        <div class="item">JavaScript</div>
+    </div>
+</body>
+</html>
