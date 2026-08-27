@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagens/fundo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo {
+    font-size: 25px;
+    font-weight: 450;
+    color: #f0d59b;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contato-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #f0d59b;
+    background-image: linear-gradient(45deg, #4b1d68, #d4af37);
+    font-size: 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 15%;
+    max-width: 600px;
+
+}
+
+.content h1 {
+    font-size: 70px;
+    color: #d4af37;
+}
+
+.content p{
+    font-size: 25px;
+    margin: 10px 0 30px;
+    animation-delay: 0.5s;
+    
+}
+
+.content .contato-btn {
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.contato-btn:hover {
+    border-top-right-radius: 30px;
+}
+
+.feature-img {
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.feature-img.animacao {
+    animation-delay: 1.5s;
+}
+
+.animacao {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
