@@ -7,7 +7,14 @@ function App() {
   return (
     <>
       <Cabecalho />
-      <Conteudo />
+      <Conteudo 
+      titulo="Meu portfólio" 
+      descricao="Projetos que desenvolvi estudando front-end"
+/>
+      <Conteudo 
+      titulo="Meus projetos" 
+      descricao="Confira alguns dos meus trabalhos"
+/>
       <Rodape />
     </>
   );

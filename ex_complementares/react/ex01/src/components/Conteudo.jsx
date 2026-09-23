@@ -1,11 +1,14 @@
-function Conteudo() {
+function Conteudo({titulo, descricao}) {
     return (
-        <main>
-            <h2>Meu Conteúdo</h2>
-        </main>
-    );
+        <>
+    <h2> {titulo} </h2>
+    <p>{descricao}</p>
+    </>
+);
 }
 
 export default Conteudo;
 
-// isso seria o componente do react, que é a função JS que retorna JSX
+// isso seria o componente do react, que é a função JS que retorna JSX.
+
+// com o props fica mais fácil reutilizar os dados alterando somente no App.jsx.
