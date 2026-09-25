@@ -1,6 +1,8 @@
 import Cabecalho from "./components/Cabecalho";
 import Conteudo from "./components/Conteudo";
+import Caixa from "./components/caixa";
 import Rodape from "./components/Rodape";
+
 
 
 function App() {
@@ -14,7 +16,15 @@ function App() {
       <Conteudo 
       titulo="Meus projetos" 
       descricao="Confira alguns dos meus trabalhos"
+      quantidade={5} // envia um número.
+      disponivel={true} // booleano=envia true/false para controlar condição
 />
+
+    <Caixa>
+      <h2>Meu Portfólio</h2>
+      <p>Projetos de front-end</p>
+    </Caixa>
+
       <Rodape />
     </>
   );

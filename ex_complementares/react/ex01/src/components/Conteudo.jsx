@@ -1,8 +1,10 @@
-function Conteudo({titulo, descricao}) {
+function Conteudo({titulo, descricao, quantidade, disponivel}) {
     return (
         <>
     <h2> {titulo} </h2>
     <p>{descricao}</p>
+    <p>{quantidade}</p>
+    <p>{disponivel && "Projetos disponíveis"} </p>
     </>
 );
 }
