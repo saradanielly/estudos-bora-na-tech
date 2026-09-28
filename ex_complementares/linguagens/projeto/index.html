@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+</head>
+<body>
+    <header>
+        <h1>Sara Danielly</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+
+        <p>Olá, meu nome é Sara Danielly e eu sou desenvolvedora front-end em formação. <br>
+        Minha principal missão é criar páginas funcionais, responsivas e com uma boa experiência para o usuário.
+        </p>
+
+        <img src="imagens/perfil.png" alt="foto de perfil minha">
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <article>
+            <h3>Projeto 1</h3>
+            <figure>
+                <img src="imagens/pagina_login.png" alt="página de login">
+                <figcaption>Site de Login</figcaption>
+            </figure>
+            <p>Site de uma página de login animada, feita com html e CSS.</p>
+        </article>
+
+         <article>
+            <h3>Projeto 2</h3>
+            <figure>
+                <img src="imagens/site_leand.png" alt="página landing page">
+                <figcaption>Site desenvolvido para um restaurante</figcaption>
+            </figure>
+            <p>Landing page desenvolvida para um restaurante, com o intuito de divulgar seus principais produtos.</p>
+        </article>
+
+         <article>
+            <h3>Projeto 3</h3>
+            <figure>
+                <img src="imagens/site_tabuada.png" alt="página de site educacional">
+                <figcaption>Site desenvolvido para escola</figcaption>
+            </figure>
+            <p>Site desenvolvido para uma escolha com intuito de ajudar alunos a compreender melhor a tabuada.</p>
+        </article>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="assunto">Assunto:</label>
+
+            <select id="assunto">
+                <option>Projeto</option>
+                <option>Oportunidade</option>
+                <option>Outros</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            Entre em contato: sara.daniellybr@gmail.com>
+        </p>
+    </footer>
+</body>
+</html>
