@@ -5,7 +5,9 @@ import Contador from "./components/Contador";
 import MostrarTexto from "./components/MostrarTexto";
 import Nome from "./components/Nome";
 import Rodape from "./components/Rodape";
-
+import Formulario from "./components/Formulario";
+import ListaNome from "./components/ListaNomes";
+import ListaTarefa from "./components/ListasTarefas";
 
 
 function App() {
@@ -33,6 +35,12 @@ function App() {
     <MostrarTexto></MostrarTexto>
 
     <Nome></Nome>
+
+    <Formulario></Formulario>
+
+    <ListaNome></ListaNome>
+
+    <ListaTarefa></ListaTarefa>
 
       <Rodape />
     </>
