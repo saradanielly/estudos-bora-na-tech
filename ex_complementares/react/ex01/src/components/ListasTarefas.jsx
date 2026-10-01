@@ -70,6 +70,7 @@ export default ListaTarefa;
 /*
 no tarefas.filter: item.id (identifica que id foi clicado, ou seja a tarefa), e o !== id (diz que todo id diferente do 
 que foi clicado, continua);
+
 e quando adiciona, cada tarefa recebe um ID prórpio. Assim, na hora de excluir, ele só exclui o mesmo ID que foi
 selecionado.
 

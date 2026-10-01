@@ -8,6 +8,8 @@ import Rodape from "./components/Rodape";
 import Formulario from "./components/Formulario";
 import ListaNome from "./components/ListaNomes";
 import ListaTarefa from "./components/ListasTarefas";
+import TituloPagina from "./components/TituloPagina";
+import Timer from "./components/Timer";
 
 
 function App() {
@@ -41,6 +43,10 @@ function App() {
     <ListaNome></ListaNome>
 
     <ListaTarefa></ListaTarefa>
+
+    <TituloPagina></TituloPagina>
+
+    <Timer></Timer>
 
       <Rodape />
     </>
